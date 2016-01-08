@@ -1,3 +1,28 @@
+/*===========================================================================================================================
+                                                         GENERAL
+============================================================================================================================*/
+header {
+    position: relative;
+    width: 100%;
+    min-height: 772px;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/main.jpg);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+a {
+  color: black;
+}
+
+/*===========================================================================================================================
+                                                         NAVBAR
+============================================================================================================================*/
 .container-fluid > .navbar-collapse {
   border-bottom: 1px solid grey;
 }
@@ -16,6 +41,10 @@ li > a:hover {
 .navbar-default .navbar-brand {
   color: #222;
 }
+
+/*===========================================================================================================================
+                                                         LANDING PAGE
+============================================================================================================================*/
 #mdi1 {
   background-color: #F05F40;
   padding-top: 80px;
@@ -29,19 +58,4 @@ li > a:hover {
   background-color: #F05F40;
   padding-top: 80px;
   padding-bottom: 80px;
-}
-
-header {
-    position: relative;
-    width: 100%;
-    min-height: 772px;
-    text-align: center;
-    color: #fff;
-    background-image: url(../img/main.jpg);
-    background-color: rgba(0, 0, 0, 0.6);
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
