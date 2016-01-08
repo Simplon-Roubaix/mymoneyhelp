@@ -1,0 +1,47 @@
+.container-fluid > .navbar-collapse {
+  border-bottom: 1px solid grey;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #222;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+  text-decoration: none;
+  background-color: #EEE;
+  color: #222;
+}
+li > a:hover {
+  color: #222;
+  background-color: transparent;
+}
+.navbar-default .navbar-brand {
+  color: #222;
+}
+#mdi1 {
+  background-color: #F05F40;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 50px;
+}
+#mdi2 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#mdi3 {
+  background-color: #F05F40;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+img {
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
