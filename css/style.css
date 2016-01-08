@@ -37,9 +37,9 @@ header {
     min-height: 772px;
     text-align: center;
     color: #fff;
-    background-image: url(../img/main1.jpg);
+    background-image: url(../img/main.jpg);
     background-color: rgba(0, 0, 0, 0.6);
-    background-position: center;
+    background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
