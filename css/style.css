@@ -20,7 +20,6 @@ li > a:hover {
   background-color: #F05F40;
   padding-top: 80px;
   padding-bottom: 80px;
-  margin-top: 50px;
 }
 #mdi2 {
   padding-top: 80px;
@@ -32,12 +31,13 @@ li > a:hover {
   padding-bottom: 80px;
 }
 
-img {
+header {
     position: relative;
     width: 100%;
-    min-height: 600px;
+    min-height: 772px;
     text-align: center;
     color: #fff;
+    background-image: url(../img/main1.jpg);
     background-color: rgba(0, 0, 0, 0.6);
     background-position: center;
     -webkit-background-size: cover;
