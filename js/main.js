@@ -10,21 +10,21 @@ $('a[href^="#"]').click(function(){
 
 //Transparence navbar
 
-var opacity = 0.5;
+var opacity = 0;
 var lastScrollTop = 0;
 $(window).scroll(function(){
     var st = $(this).scrollTop();
     if(st == 0)
-        $('#mainNav').css('opacity','0.5');
+        $('#mainNav').css('background-color','rgba(69, 89, 96, opacity');
 
     if (opacity < 1 && (st > lastScrollTop)){
-       $('#mainNav').css('opacity','+=0.1');
-       opacity += 0,1;
+			 opacity += 0,1;
+       $('#mainNav').css('opacity','rgba(69, 89, 96, opacity)';
     }
     else if(opacity > 0.5)
     {
-       $('#mainNav').css('opacity','-=0.1');
-        opacity -= 0.1;
+			 opacity -= 0.1;
+       $('#mainNav').css('opacity','(69, 89, 96, opacity)');
     }
     lastScrollTop = st;
 });

@@ -44,8 +44,10 @@
                                                          NAVBAR
 ============================================================================================================================*/
             #mainNav {
-              background-color: #45585F!important;
-              opacity: 0.5;
+              background-color: rgba(69, 89, 96, 0);
+            }
+            .navbar-header{
+              opacity: inherit!important;
             }
 
                 .navbar-nav > li > a {
