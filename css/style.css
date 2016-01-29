@@ -273,6 +273,10 @@
                     background-color: white;
                     border-radius: 10px 10px 0 0;
                   }
+                  .bgPageProjet1 {
+                    background-color: white;
+                    border-radius: 0 0 10px 10px;
+                  }
                   .GreenWrapper {
                     background-color: #71CA7A;
                     font-size: 0.8em;
@@ -282,7 +286,8 @@
                     margin-bottom: 10px;
                   }
                   .image-presentation {
-                    margin-top: 15px;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
                   }
                   .info-projet {
                     margin-top: 40px;
@@ -299,19 +304,12 @@
                     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
                     margin: 5px;
                   }
-                  .remplacement {
-                    background-color: white;
-                    height: 300px;
-                    width: 100%;
-                    margin-bottom: 15px;
-                    margin-right: 15px;
-                  }
                   .borderli span {
                     display: block;
                     letter-spacing: 1px;
                   }
                   div.info-projet > p > a.btn {
-                    margin-top: 5px;
+                    margin-top: 135px;
                     margin-bottom: 5px;
                     border-radius: 10px;
                     border: 1px solid white;
