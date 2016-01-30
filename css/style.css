@@ -2,163 +2,201 @@
                                                          GENERAL
 ============================================================================================================================*/
 
-                  @import url(https://fonts.googleapis.com/css?family=Droid+Serif|Oswald);
-                  @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
-                  body {}
-                  header {
-                    position: relative;
-                    width: 100%;
-                    text-align: center;
-                    color: #fff;
-                  }
-                  a {
-                    color: black;
-                  }
-                  h1, h2, h3, h4, h5, h6 {
-                    font-size: 2.5em;
-                    font-family: 'Oswald', sans-serif;
-                  }
-                  p {
-                    font-size: 1.2em;
-                    font-family: 'Roboto Condensed', sans-serif;
-                  }
-                  #mdi1 p {
-                    color: white;
-                  }
-                  #mdi2 p {
-                    color: black;
-                  }
-                  #mdi3 p {
-                    color: white;
-                  }
-                  #mdi1 h2 {
-                    color: white;
-                  }
-                  #mdi2 h2 {
-                    color: black;
-                  }
-                  #mdi3 h2 {
-                    color: white;
-                  }
-                  /*===========================================================================================================================
+                @import url(https://fonts.googleapis.com/css?family=Droid+Serif|Oswald);
+                @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+                body {}
+
+                header {
+                  position: relative;
+                  width: 100%;
+                  text-align: center;
+                  color: #fff;
+                }
+                a {
+                  color: white;
+                }
+                h1, h2, h3, h4, h5, h6 {
+                  font-size: 2.5em;
+                  font-family: 'Oswald', sans-serif;
+                }
+
+                p {
+                  font-size: 1.2em;
+                  font-family: 'Roboto Condensed', sans-serif;
+                }
+                section.heightSection {
+                  height: 720px;
+                }
+                #mdi1 p {
+                  color: white;
+                }
+                #mdi2 p {
+                  color: black;
+                }
+                #mdi3 p {
+                  color: white;
+                }
+                #mdi1 h2 {
+                  color: white;
+                }
+                #mdi2 h2 {
+                  color: black;
+                }
+                #mdi3 h2 {
+                  color: white;
+                }
+                /*===========================================================================================================================
                                                          NAVBAR
 ============================================================================================================================*/
 
-                  .navbar-nav > li > a {
-                    font-weight: 700;
-                  }
-                  .navbar-default .navbar-nav > li > a {
-                    color: #fff;
-                  }
-                  .nav > li > a:focus, .nav > li > a:hover {
-                    text-decoration: none;
-                    background-color: transparent !important;
-                  }
-                  .navbar-inverse .nav > li>#acc, .navbar-inverse .nav>li>#acc:focus {
-                    text-transform: uppercase;
-                    font-size: 13px;
-                    font-weight: 700;
-                    color: #fff;
-                  }
-                  .navbar-inverse .nav > li>#acc:hover, .navbar-inverse .nav>li>#acc:focus:hover {
-                    color: grey;
-                    transition: all 0.45s ease 0s;
-                  }
-                  .navbar-inverse .nav > li>#bio, .navbar-inverse .nav>li>#bio:focus {
-                    text-transform: uppercase;
-                    font-size: 13px;
-                    font-weight: 700;
-                    color: #fff;
-                  }
-                  .navbar-inverse .nav > li>#bio:hover, .navbar-inverse .nav>li>#bio:focus:hover {
-                    animated color: #5CB85C;
-                    transition: all 0.45s ease 0s;
-                  }
-                  .navbar-inverse .nav > li>#show, .navbar-inverse .nav>li>#show:focus {
-                    text-transform: uppercase;
-                    font-size: 13px;
-                    font-weight: 700;
-                    color: #fff;
-                  }
-                  .navbar-inverse .nav > li>#show:hover, .navbar-inverse .nav>li>#show:focus:hover {
-                    color: #ffe63b;
-                    transition: all 0.45s ease 0s;
-                  }
-                  .navbar-inverse .nav > li>#media, .navbar-inverse .nav>li>#media:focus {
-                    text-transform: uppercase;
-                    font-size: 13px;
-                    font-weight: 700;
-                    color: #fff;
-                  }
-                  .navbar-inverse .nav > li>#media:hover, .navbar-inverse .nav>li>#media:focus:hover {
-                    color: #FF3737;
-                    transition: all 0.45s ease 0s;
-                  }
-                  .navbar-inverse .nav > li>#contact, .navbar-inverse .nav>li>#contact:focus {
-                    text-transform: uppercase;
-                    font-size: 13px;
-                    font-weight: 700;
-                    color: #fff;
-                  }
-                  .navbar-inverse .nav > li>#contact:hover, .navbar-inverse .nav>li>#contact:focus:hover {
-                    color: grey;
-                    transition: all 0.45s ease 0s;
-                  }
-                  .navbar-inverse .nav > li>#bio:hover, .navbar-inverse .nav>li>#bio:focus:hover {
-                    color: #5CB85C;
-                  }
-                  .navbar-inverse .nav > li.active>#bio, .navbar-inverse .nav>li.active>#bio:focus {
-                    color: #5CB85C!important;
-                    background-color: transparent;
-                    transition: all 0.45s ease 0s;
-                  }
-                  .navbar-inverse .nav > li>#show:hover, .navbar-inverse .nav>li>#show:focus:hover {
-                    color: #ffe63b;
-                  }
-                  .navbar-inverse .nav > li.active>#show, .navbar-inverse .nav>li.active>#show:focus {
-                    color: #ffe63b!important;
-                    background-color: transparent;
-                    transition: all 0.55s ease 0s;
-                  }
-                  .navbar-inverse .nav > li>#media:hover, .navbar-inverse .nav>li>#media:focus:hover {
-                    color: #FF3737;
-                  }
-                  .navbar-inverse .nav > li.active>#media, .navbar-inverse .nav>li.active>#media:focus {
-                    color: #FF3737!important;
-                    background-color: transparent;
-                    transition: all 0.45s ease 0s;
-                  }
-                  .navbar-inverse .nav > li>#contact:hover, .navbar-inverse .nav>li>#contact:focus:hover {
-                    color: grey;
-                  }
-                  .navbar-inverse .nav > li.active>#contact, .navbar-inverse .nav>li.active>#contact:focus {
-                    color: grey !important;
-                    background-color: transparent;
-                    transition: all 0.45s ease 0s;
-                  }
-                  .navbar-default .navbar-brand {
-                    color: #222;
-                  }
+
+
+                .navbar-nav > li > a {
+                  font-weight: 700;
+                }
+                .navbar-default .navbar-nav > li > a {
+                  color: #fff;
+                }
+                .nav > li > a:focus, .nav > li > a:hover {
+                  text-decoration: none;
+                  background-color: transparent !important;
+                }
+                .navbar-inverse .nav > li>#acc, .navbar-inverse .nav>li>#acc:focus {
+                  text-transform: uppercase;
+                  font-size: 13px;
+                  font-weight: 700;
+                  color: #fff;
+                }
+                .navbar-inverse .nav > li>#acc:hover, .navbar-inverse .nav>li>#acc:focus:hover {
+                  color: grey;
+                  transition: all 0.45s ease 0s;
+                }
+                .navbar-inverse .nav > li>#bio, .navbar-inverse .nav>li>#bio:focus {
+                  text-transform: uppercase;
+                  font-size: 13px;
+                  font-weight: 700;
+                  color: #fff;
+                }
+                .navbar-inverse .nav > li>#bio:hover, .navbar-inverse .nav>li>#bio:focus:hover {
+                  color: #5CB85C;
+                  transition: all 0.45s ease 0s;
+                }
+                .navbar-inverse .nav > li>#show, .navbar-inverse .nav>li>#show:focus {
+                  text-transform: uppercase;
+                  font-size: 13px;
+                  font-weight: 700;
+                  color: #fff;
+                }
+                .navbar-inverse .nav > li>#show:hover, .navbar-inverse .nav>li>#show:focus:hover {
+                  color: #ffe63b;
+                  transition: all 0.45s ease 0s;
+                }
+                .navbar-inverse .nav > li>#media, .navbar-inverse .nav>li>#media:focus {
+                  text-transform: uppercase;
+                  font-size: 13px;
+                  font-weight: 700;
+                  color: #fff;
+                }
+                .navbar-inverse .nav > li>#media:hover, .navbar-inverse .nav>li>#media:focus:hover {
+                  color: #FF3737;
+                  transition: all 0.45s ease 0s;
+                }
+                .navbar-inverse .nav > li>#contact, .navbar-inverse .nav>li>#contact:focus {
+                  text-transform: uppercase;
+                  font-size: 13px;
+                  font-weight: 700;
+                  color: #fff;
+                }
+                .navbar-inverse .nav > li>#contact:hover, .navbar-inverse .nav>li>#contact:focus:hover {
+                  color: grey;
+                  transition: all 0.45s ease 0s;
+                }
+                .navbar-inverse .nav > li>#bio:hover, .navbar-inverse .nav>li>#bio:focus:hover {
+                  color: #5CB85C;
+                }
+                .navbar-inverse .nav > li.active>#bio, .navbar-inverse .nav>li.active>#bio:focus {
+                  color: #5CB85C!important;
+                  background-color: transparent;
+                  transition: all 0.45s ease 0s;
+                }
+                .navbar-inverse .nav > li>#show:hover, .navbar-inverse .nav>li>#show:focus:hover {
+                  color: #ffe63b;
+                }
+                .navbar-inverse .nav > li.active>#show, .navbar-inverse .nav>li.active>#show:focus {
+                  color: #ffe63b!important;
+                  background-color: transparent;
+                  transition: all 0.55s ease 0s;
+                }
+                .navbar-inverse .nav > li>#media:hover, .navbar-inverse .nav>li>#media:focus:hover {
+                  color: #FF3737;
+                }
+                .navbar-inverse .nav > li.active>#media, .navbar-inverse .nav>li.active>#media:focus {
+                  color: #FF3737!important;
+                  background-color: transparent;
+                  transition: all 0.45s ease 0s;
+                }
+                .navbar-inverse .nav > li>#contact:hover, .navbar-inverse .nav>li>#contact:focus:hover {
+                  color: grey;
+                }
+                .navbar-inverse .nav > li.active>#contact, .navbar-inverse .nav>li.active>#contact:focus {
+                  color: grey !important;
+                  background-color: transparent;
+                  transition: all 0.45s ease 0s;
+                }
+                .navbar-default .navbar-brand {
+                  color: #222;
+                }
+
+                .btn {
+                  border: 0px none;
+                  border-radius: 300px;
+                  text-transform: uppercase;
+                  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+                  font-weight: 700;
+                }
+                a:focus {
+                  outline: 0;
+                }
+                .navbar-invisible {
+                  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+                  -webkit-transition: all .35s;
+                  -moz-transition: all .35s;
+                  transition: all .35s;
+                }
+                #mainNav {
+                  background-color: rgba(69, 89, 96, 0);
+                  height: 51px!important;
+                }
+                .midnightHeader.default {
+                  color: #fff;
+                }
+                .midnightHeader.section1 {
+                  background-color:#fff;
+                  color: black;
+                }
+                .midnightHeader.section1 .navbar-brand, .midnightHeader.section1 .navbar-nav > li > a {
+                  color: #45585F;
+                }
+                .midnightHeader.section2 {
+                  background-color: #45585F;
+                  color: white;
+                }
+                .midnightHeader.section2 .navbar-brand, .midnightHeader.section2 .navbar-nav > li > a {
+                  color: #fff;
+                }
+                .midnightHeader.section3 {
+                  background-color:#fff;
+                  color: black;
+                }
+                .midnightHeader.section3 .navbar-brand, .midnightHeader.section3 .navbar-nav > li > a {
+                  color: #45585F;
+                }
+
                   .container-fluid {
                     border-bottom: 1px solid black;
                   }
-                  .btn {
-                    border: 0px none;
-                    border-radius: 300px;
-                    text-transform: uppercase;
-                    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
-                    font-weight: 700;
-                  }
-                  a:focus {
-                    outline: 0;
-                  }
-                  .navbar-invisible {
-                    border-color: rgba(34, 34, 34, .05);
-                    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-                    -webkit-transition: all .35s;
-                    -moz-transition: all .35s;
-                    transition: all .35s;
-                  }
+
+
                   /*===========================================================================================================================
                                                          LANDING PAGE
 ============================================================================================================================*/
@@ -181,12 +219,6 @@
                     padding: 15px 30px;
                     background-color: #4DEF61;
                     color: black;
-                  }
-                  .btn {
-                    border: 0px none;
-                    border-radius: 300px;
-                    text-transform: uppercase;
-                    font-weight: 700;
                   }
                   /*===========================================================================================================================
                                                          HEADER
