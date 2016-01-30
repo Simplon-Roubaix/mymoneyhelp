@@ -1,30 +1,30 @@
-// animation scroll navbar
-$('a[href^="#"]').click(function(){
-	var mdi4 = $(this).attr("href");
-
-	$('html, body').animate({
-		scrollTop:$(mdi4).offset().top
-	}, 'slow');
-	return false;
-});
+$(document).ready(function(){
 
 //Transparence navbar
 
+var navEl = document.getElementById("mainNav");
 var opacity = 0;
-var lastScrollTop = 0;
-$(window).scroll(function(){
-    var st = $(this).scrollTop();
-    if(st == 0)
-        $('#mainNav').css('background-color','rgba(69, 89, 96, opacity');
+var dernierScroll = 0;
+$(window).scroll(function() {
+  var compteurScroll = $(this).scrollTop();
+  	if (compteurScroll == 0) {
+    	navEl.style.backgroundColor = "rgba(69, 89, 96, 0)";
+			navEl.style.borderBottom = "1px solid rgba(0, 0, 0, 0)";
+    	opacity = 0;
+  	}
+  	else if (opacity < 1 && compteurScroll > dernierScroll){
+    	navEl.style.backgroundColor = "rgba(69, 89, 96, "+ (opacity += 0.1) + ")";
+			navEl.style.borderBottom = "1px solid rgba(0, 0, 0, "+ (opacity += 0.1) +")";
+    	opacity += 0.1;
+  	}
+		else if (compteurScroll < 100 && compteurScroll < dernierScroll){
+			navEl.style.backgroundColor = "rgba(69, 89, 96, "+ (opacity -= 0.1) + ")";
+			navEl.style.borderBottom = "1px solid rgba(0, 0, 0, "+ (opacity -= 0.1) +")";
+    	opacity -= 0.1;
+		}
+  	dernierScroll = compteurScroll;
 
-    if (opacity < 1 && (st > lastScrollTop)){
-			 opacity += 0,1;
-       $('#mainNav').css('opacity','rgba(69, 89, 96, opacity)';
-    }
-    else if(opacity > 0.5)
-    {
-			 opacity -= 0.1;
-       $('#mainNav').css('opacity','(69, 89, 96, opacity)');
-    }
-    lastScrollTop = st;
+});
+
+ $('nav#mainNav').midnight();
 });
