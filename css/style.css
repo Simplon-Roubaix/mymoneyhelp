@@ -169,10 +169,12 @@
                 }
                 .midnightHeader.default {
                   color: #fff;
+                  height: 51px;
                 }
                 .midnightHeader.section1 {
                   background-color:#fff;
                   color: black;
+
                 }
                 .midnightHeader.section1 .navbar-brand, .midnightHeader.section1 .navbar-nav > li > a {
                   color: #45585F;
